@@ -23,6 +23,8 @@ _typename_
 
 Any expression that is legal within an **As** clause in a **Dim** statement, that is, the name of any data type, object, structure, class, or interface.
 
+VB.Net is a strongly typed language, meaning all objects represent a specific type (kind) of data.  A given object can represent one, and only one, [Data Type][19].  However, objects may support conversion of the existing data type to some other type.  These conversions are performed using the **CType** [operator][16].
+
 **CType** is compiled inline, which means that the conversion code is part of the code that evaluates the expression. In some cases, the code runs faster because no procedures are called to perform the conversion.
 
 If no conversion is defined from _expression_ to _typename_ (for example, from **Integer** to **Date**), Visual Basic displays a compile-time error message.
@@ -48,6 +50,8 @@ The following example uses the **CType** function to convert an expression to th
 For additional examples, see [Implicit and Explicit Conversions (Visual Basic)][11].
 
 ##See Also
+[Data Types in Visual Basic][19]
+
 [OverflowException][12]
 
 [InvalidCastException][13]
@@ -82,3 +86,4 @@ For additional examples, see [Implicit and Explicit Conversions (Visual Basic)][
 [16]: https://msdn.microsoft.com/en-us/library/hddt295a.aspx
 [17]: https://msdn.microsoft.com/en-us/library/yf7b9sy7.aspx
 [18]: https://msdn.microsoft.com/en-us/library/98bbex99.aspx
+[19]: https://msdn.microsoft.com/en-us/library/ffsdktda.aspx
