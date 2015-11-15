@@ -15,13 +15,13 @@ Any valid expression. If the value of _expression_ is outside the range allowed 
 
 _typename_
 
+Any expression that is legal within an **As** clause in a **Dim** statement, that is, the name of any data type, object, structure, class, or interface.
+
 ##Remarks
 
 >You can also use the following functions to perform a type conversion:
 >* Type conversion functions such as CByte, CDbl, and CInt that perform a conversion to a specific data type. For more information, see [Type Conversion Functions (Visual Basic)][8].
 >* [DirectCast Operator (Visual Basic)][9] or [TryCast Operator (Visual Basic)][10]. These operators require that one type inherit from or implement the other type. They can provide somewhat better performance than CType when converting to and from the Object data type.
-
-Any expression that is legal within an **As** clause in a **Dim** statement, that is, the name of any data type, object, structure, class, or interface.
 
 VB.Net is a strongly typed language, meaning all objects represent a specific type (kind) of data.  A given object can represent one, and only one, [Data Type][19].  However, objects may support conversion of the existing data type to some other type.  These conversions are performed using the **CType** [operator][16].
 
